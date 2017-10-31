@@ -10,7 +10,9 @@
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/paging.js"></script>
 	<script>
-		var page = new Paging(5,20,5,'.pagination');
+		var page = new Paging(5,20,5,'.pagination',function(idx){
+			console.log('idx',idx);
+		});
 	</script>
 </body>
 </html>
