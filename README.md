@@ -16,4 +16,7 @@
 
 	<script>
 		var page = new Paging(5,20,5,'.pagination');
-	</script> 
+	</script>
+	
+
+	 
