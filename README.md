@@ -15,5 +15,8 @@
 ####3.把下面这段代码添加到页面中，就可以使用了
 
 	<script>
-		var page = new Paging(5,20,5,'.pagination');
-	</script> 
+		var page = new Paging(5,20,5,'.pagination')
+	</script>
+	
+
+	 
